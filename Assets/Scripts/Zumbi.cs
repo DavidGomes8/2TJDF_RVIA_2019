@@ -40,7 +40,7 @@ public class Zumbi : MonoBehaviour
         }
     }
 
-    private void OnCollisioEnter(Collision collision)
+    private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
